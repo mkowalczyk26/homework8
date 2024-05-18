@@ -27,12 +27,14 @@ You can create instances of books using FictinoBook and NonFictionBook
 
 Example:
 
+```javascript
 const FictionBook = require('./entities/books/fictionBook.entity');
 const NonFictionBook = require('./entities/books/nonFictionBook.entity');
 
 const book1 = new FictionBook("The Lord of The Rings", "J.R.R Tolkien", "9788845292613", 12.99, true, "Fantasy");
 const book2 = new FictionBook("1984", "George Orwell", "9780198185215", 15.99, true, "Science fiction");
 const book3 = new NonFictionBook("Crime and Punishment", "Fyodor Dostoevsky", "9780198709701", 10.99, true, "Philosophical novel");
+```
 
 
 
