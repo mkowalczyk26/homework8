@@ -45,8 +45,8 @@ You can create instances of user like this:
 ```javascript
 const User = require('./entities/user.entity');
 
-const user1 = new User("John", "john@example.com", "1");
-const user2 = new User("Jane", "jane@example.com", "2");
+const user1 = new User("John", "john@example.com");
+const user2 = new User("Jane", "jane@example.com");
 ```
 
 

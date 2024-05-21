@@ -10,8 +10,9 @@ const book2 = new FictionBook("1984", "George Orwell", "9780198185215", 15.99, t
 const book3 = new NonFictionBook("Crime and Punishment", "Fyodor Dostoevsky", "9780198709701", 10.99, true, "Philosophical novel");
 
 // creating User ojects
-const user1 = new User("John", "john@example.com", "1");
-const user2 = new User("Jane", "jane@example.com", "2");
+const user1 = new User("John", "john@example.com");
+const user2 = new User("Jane", "jane@example.com");
+
 
 // adding books to users carts
 const cartUser1 = new Cart();
